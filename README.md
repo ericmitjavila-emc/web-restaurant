@@ -21,5 +21,5 @@ perquè és un tipus de negoci amb molt contingut visual i estructura clara.
 - Pàgina de contacte amb horaris i adreça
 
 ## Com executar-lo
-Descarrega l'arxiu `restaurant.html` i obre'l amb qualsevol navegador web.
+Descarrega l'arxiu `index.html` i obre'l amb qualsevol navegador web.
 No necessita cap instal·lació ni servidor.
