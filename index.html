@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Taula d'en Marc - Restaurant</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="logo">La Taula d'en Marc</div>
+  <ul class="nav-links">
+    <li><a href="#menu">Carta</a></li>
+    <li><a href="#about">Nosaltres</a></li>
+    <li><a href="#contact">Contacte</a></li>
+  </ul>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-tag">Cuina catalana · Des de 1998</div>
+    <h1>Una <em>experiència</em><br>gastronòmica</h1>
+    <p>Tradició, producte local i passió al centre de Barcelona</p>
+    <a href="#menu" class="btn">Veure la carta</a>
+  </div>
+</section>
+
+
+<section id="menu">
+  <div class="divider">
+    <div class="divider-line"><span class="divider-icon">✦</span></div>
+    <h2 class="section-title">La nostra carta</h2>
+    <p class="section-sub">Productes de temporada · Km0</p>
+  </div>
+
+  <div class="menu-section">
+    <div class="menu-categories">
+      <button class="cat-btn active">Tot</button>
+      <button class="cat-btn">Entrants</button>
+      <button class="cat-btn">Principals</button>
+      <button class="cat-btn">Postres</button>
+    </div>
+
+    <div class="menu-grid">
+      <div class="menu-item">
+        <div class="menu-item-header">
+          <span class="dish-name">Pa amb tomàquet i embotit</span>
+          <span class="dish-price">8€</span>
+        </div>
+        <p class="dish-desc">Pa de pagès amb tomàquet fresc, oli d'oliva verge extra i embotit artesà de la Garrotxa.</p>
+        <span class="dish-tag">Entrant</span>
+      </div>
+
+      <div class="menu-item">
+        <div class="menu-item-header">
+          <span class="dish-name">Croquetes de bacallà</span>
+          <span class="dish-price">10€</span>
+        </div>
+        <p class="dish-desc">Croquetes cremoses de bacallà amb allioli de mel. 6 unitats.</p>
+        <span class="dish-tag">Entrant</span>
+      </div>
+
+      <div class="menu-item">
+        <div class="menu-item-header">
+          <span class="dish-name">Escudella i carn d'olla</span>
+          <span class="dish-price">16€</span>
+        </div>
+        <p class="dish-desc">El plat català per excel·lència. Pilota, cansalada, patata i verdures de temporada.</p>
+        <span class="dish-tag">Principal</span>
+      </div>
+
+      <div class="menu-item">
+        <div class="menu-item-header">
+          <span class="dish-name">Bacallà a la llauna</span>
+          <span class="dish-price">18€</span>
+        </div>
+        <p class="dish-desc">Bacallà al forn amb tomàquet, all, pebre vermell fumat i oli d'oliva.</p>
+        <span class="dish-tag">Principal</span>
+      </div>
+
+      <div class="menu-item">
+        <div class="menu-item-header">
+          <span class="dish-name">Pollastre a l'ast</span>
+          <span class="dish-price">15€</span>
+        </div>
+        <p class="dish-desc">Pollastre de pagès rostit lentament amb herbes aromàtiques i patates.</p>
+        <span class="dish-tag">Principal</span>
+      </div>
+
+      <div class="menu-item">
+        <div class="menu-item-header">
+          <span class="dish-name">Crema catalana</span>
+          <span class="dish-price">6€</span>
+        </div>
+        <p class="dish-desc">La nostra crema catalana casolana amb sucre cremat al moment. Recepta de l'àvia.</p>
+        <span class="dish-tag">Postres</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div style="background: var(--dark); padding: 0 40px;">
+  <div id="about" class="about-section">
+    <div class="about-text">
+      <h2>La nostra història</h2>
+      <p>Des de 1998, La Taula d'en Marc ofereix cuina catalana de mercat al cor de Barcelona. El nostre compromís és amb el producte local, els productors de proximitat i les receptes tradicionals.</p>
+      <p>Cada plat explica una història. Cada ingredient té un origen. Vine a descobrir la cuina catalana de debò.</p>
+    </div>
+    <div class="about-stats">
+      <div class="stat">
+        <span class="stat-num">26</span>
+        <span class="stat-label">Anys d'experiència</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">100%</span>
+        <span class="stat-label">Producte local</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">48</span>
+        <span class="stat-label">Plats a la carta</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">★4.8</span>
+        <span class="stat-label">Valoració mitjana</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<section id="contact" class="contact-section">
+  <div class="divider-line" style="justify-content:center; margin-bottom:12px;">
+    <span style="color:var(--gold)">✦</span>
+  </div>
+  <h2 class="section-title">Vine a visitar-nos</h2>
+  <p class="section-sub">Reserves i contacte</p>
+
+  <div class="contact-grid">
+    <div class="contact-item">
+      <div class="contact-icon">📍</div>
+      <div class="contact-label">Adreça</div>
+      <div class="contact-value">Carrer Provença 142, Barcelona</div>
+    </div>
+    <div class="contact-item">
+      <div class="contact-icon">📞</div>
+      <div class="contact-label">Telèfon</div>
+      <div class="contact-value">93 123 45 67</div>
+    </div>
+    <div class="contact-item">
+      <div class="contact-icon">🕐</div>
+      <div class="contact-label">Horari</div>
+      <div class="contact-value">Dilluns – Diumenge<br>13:00 – 23:00</div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2026 La Taula d'en Marc · Tots els drets reservats
+</footer>
+
+</body>
+</html>
