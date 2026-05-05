@@ -13,6 +13,7 @@ perquè és un tipus de negoci amb molt contingut visual i estructura clara.
 - HTML5
 - CSS3 (disseny responsive, animacions)
 - Google Fonts
+<img width="1905" height="1024" alt="image" src="https://github.com/user-attachments/assets/6eed23d7-54ee-4a7a-b751-d4e8a4fd43e6" />
 
 ## Contingut de la web
 - Pàgina principal amb hero visual
